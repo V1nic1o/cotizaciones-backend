@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Variables de entorno
+.env
+
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Base de datos local o temporales
+*.sqlite
+*.sqlite3
+*.db
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Sequelize temporales
+*.seeders.js
+*.migrations.js
+
+# Carpetas ocultas
+.vscode/
+.idea/
